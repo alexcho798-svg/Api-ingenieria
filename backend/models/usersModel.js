@@ -16,7 +16,7 @@ const usersSchema= mongoose.Schema({
         
     },
     esAdmin:{
-        type: boolean,
+        type: Boolean,
         default: false
     }
 
