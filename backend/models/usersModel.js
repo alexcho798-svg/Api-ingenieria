@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const usersSchema= mongoose.Schema({
+const userSchema= mongoose.Schema({
     nombre:{
         type: String,
         required: [true, 'por favor teclea tu nombre']
