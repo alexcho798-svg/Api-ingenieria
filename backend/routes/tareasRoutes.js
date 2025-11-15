@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const {getTareas, createTareas, updateTareas, deleteTareas} = require('../controllers/tareasControllers')
+const {getTareas, createTareas, updateTareas, deleteTareas} = require('../controllers/tareascontrollers')
 const {protect}=require('../middleware/authmiddleware')
 
 router.get('/', protect, getTareas )
